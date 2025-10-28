@@ -7,7 +7,7 @@ import { SortPipe } from './sort.pipe';
 @Component({
   selector: 'app-root',
   standalone: true,
-  templateUrl: './app.component.html',
+  templateUrl: './app.html',
   imports: [DatePipe, DecimalPipe, TemperaturePipe, SortPipe],
 })
 export class AppComponent {
